@@ -40,6 +40,12 @@ a {
   text-decoration: none;
   color: #fff;
 }
+a:hover {
+  background-color: rgba(0, 0, 0, 0.395);
+  color: #fff;
+
+  box-shadow: 0 0 3px 15px rgba(0, 0, 0, 0.395);
+}
 .frame {
   display: flex;
   justify-content: center;
