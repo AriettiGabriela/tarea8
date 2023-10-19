@@ -15,12 +15,15 @@
 
 <body>
   <h1 id="main">NI IDEA STORE</h1>
-  <button type="submit"><a href="index.html">Inicio</a></button>
-  <button type="submit"><a href="listar.php">Listar ropa</a></button>
-  <button type="submit"><a href="agregar.html">Agregar ropa</a></button>
+  <div>
+    <button type="submit"><a href="index.html">Inicio</a></button>
+    <button type="submit"><a href="listar.php">Listar ropa</a></button>
+    <button type="submit"><a href="agregar.html">Agregar ropa</a></button>
+  </div>
   <h2>Lista de ropa</h2>
   <p>La siguiente lista muestra los datos de la ropa actualmente en stock.</p>
 
+  <iframe src="./public/basedatos.php" frameborder="0"></iframe>
   <section>
     <div class="container">
       <div class="row">

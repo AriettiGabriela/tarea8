@@ -13,8 +13,7 @@ body {
   align-content: center;
 }
 
-h1 {
-  font-size: 20vw;
+#main {
   text-align: center;
   line-height: 0.8;
   color: rgb(52, 83, 117);
