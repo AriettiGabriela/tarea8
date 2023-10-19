@@ -14,6 +14,7 @@ body {
 }
 .bodyframe {
   background-color: #ffffff00;
+  background-image: none;
   margin-top: 8vh;
 }
 
@@ -34,13 +35,13 @@ nav {
   align-items: center;
 }
 
-a {
+nav a {
   font-size: 2.5vw;
   margin: 0 3vw;
   text-decoration: none;
   color: #fff;
 }
-a:hover {
+nav a:hover {
   background-color: rgba(0, 0, 0, 0.395);
   color: #fff;
 
@@ -49,10 +50,33 @@ a:hover {
 .frame {
   display: flex;
   justify-content: center;
-  width: 90vw;
+  width: 95vw;
   height: 100vh;
   margin: auto;
 }
 .frame iframe {
   width: 100%;
+}
+
+.card {
+  margin: 1vw;
+  max-width: 290px;
+  border-radius: 13px;
+}
+
+.card-img-top {
+  height: 90%;
+}
+.card-body {
+  text-decoration: none;
+}
+.card-body h3 {
+  width: 100%;
+  font-size: 30px;
+  color: black;
+}
+.card-body span {
+  width: 100%;
+  font-size: 20px;
+  color: rgb(52, 83, 117);
 }
