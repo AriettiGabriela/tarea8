@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <?php
-                $conexion = mysqli_connect("127.0.0.1", "root", "");
+                $conexion = mysqli_connect("127.0.0.1:3308", "root", "");
                 mysqli_select_db($conexion, "tienda");
                 $consulta = 'SELECT * FROM ropa WHERE prenda="buzo"';
                 $datos = mysqli_query($conexion, $consulta);
